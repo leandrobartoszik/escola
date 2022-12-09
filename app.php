@@ -1,7 +1,7 @@
 <?php 
 	include 'conexao.php';
 	$acao = $_REQUEST['acao'];
-	if ($acao==exibir) {
+	if ($acao==exibir)  {
 			// code...
 			
 		if (isset($_FILES['imagem'])) {
